@@ -1,0 +1,65 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+    text-align: center;
+    color: #0066cc; /* Azul */
+    font-size: 36px; /* Tamaño de fuente grande */
+}
+
+/* Estilos para los subtítulos */
+h2 {
+    color: #444; /* Gris oscuro */
+    font-size: 24px; /* Tamaño de fuente mediano */
+    margin-top: 20px; /* Espacio superior entre subtítulos */
+}
+
+/* Estilos para el texto resaltado */
+strong {
+    font-weight: bold;
+    color: #0066cc; /* Azul */
+}
+
+/* Estilos para el párrafo de información */
+p {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/* Estilos para la tabla de imágenes */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+table img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #0066cc; /* Borde alrededor de las imágenes */
+    width: 300px; /* Establece un ancho fijo de 500px */
+    height: 300px; /* Establece una altura fija de 500px */
+    object-fit: cover; /* Ajustar y recortar la imagen para encajar en el contenedor */
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #0066cc; /* Azul */
+}
+
+a:hover {
+    text-decoration: underline;
+}
